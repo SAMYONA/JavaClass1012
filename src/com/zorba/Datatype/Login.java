@@ -6,7 +6,7 @@ public class Login {
 
 	public static void main(String[] args) {
 		
-		Scanner scanner = new Scanner(System.in);;;;1111
+		Scanner scanner = new Scanner(System.in);
 
 		String storingUserNames[] = new String[2]; 
 		String storingPasswords[] = new String[2];

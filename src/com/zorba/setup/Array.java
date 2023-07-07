@@ -13,10 +13,7 @@ public class Array {
 			System.out.println(y[i]);
 		}
 		
-		for (int numx : numx) {
-			
-			System.out.println();
-		}
+		
 	}
 
 }
