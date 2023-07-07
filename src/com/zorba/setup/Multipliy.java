@@ -2,25 +2,23 @@ package com.zorba.setup;
 
 public class Multipliy {
 
-	    public static int[] multiplyByFive(int[] array) {
-	        int[] multipliedArray = new int[array.length];
-	        for (int i = 0; i < array.length; i++) {
-	            multipliedArray[i] = array[i] * 5;
-	        }
-	        return multipliedArray;
-	    }
+	public static void main(String[] args) {
+		// 4. Write a program to iterate all the numbers from the array and multiply by
+		// 5 to each Number and store the updated value in a different array and print
+		// those values from new array
 
-	    public static void main(String[] args) {
-	        int[] array = {1, 2, 3, 4, 5};
-	        int[] multiplied = multiplyByFive(array);
-	        System.out.print("Multiplied array: ");
-	        for (int num : multiplied) {
-	            System.out.print(num + " ");
-	        }
-	        System.out.println();
+		int[] array = { 1, 2, 3, 4, 5 };
 
+		int[] multipliedArray = new int[array.length];
+		for (int i = 0; i < array.length; i++) {
+			multipliedArray[i] = array[i] * 5;
+		}
 
+		System.out.print("Multiplied array: ");
+		for (int num : multipliedArray) {
+			System.out.print(num + " ");
+		}
+		System.out.println();
 
 	}
-
 }

@@ -1,31 +1,23 @@
 package com.zorba.setup;
 
 public class OddandEven {
+	// 2. Write a program to verify the odd and even numbers from a given array.
 
-		    public static void verifyOddEven(int[] array) {
-		        System.out.print("Odd numbers: ");
-		        for (int num : array) {
-		            if (num % 2 != 0) {
-		                System.out.print(num + " ");
-		            }
-		        }
-		        System.out.println();
+	public static void main(String[] args) {
+		int[] array = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
 
-		        System.out.print("Even numbers: ");
-		        for (int num : array) {
-		            if (num % 2 == 0) {
-		                System.out.print(num + " ");
-		            }
-		        }
-		        System.out.println();
-		    }
+		System.out.println("Odd numbers:");
+		for (int num : array) {
+			if (num % 2 != 0) {
+				System.out.println(num);
+			}
+		}
 
-		    public static void main(String[] args) {
-		        int[] array = {1, 2, 3, 4, 5};
-		        verifyOddEven(array);
-		    }
-		
-
+		System.out.println("Even numbers:");
+		for (int num : array) {
+			if (num % 2 == 0) {
+				System.out.println(num);
+			}
+		}
+	}
 }
-
-
