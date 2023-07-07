@@ -1,0 +1,10 @@
+package com.zorba.setup;
+
+public class scanner {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}
